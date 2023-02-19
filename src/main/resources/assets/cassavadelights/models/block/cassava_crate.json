@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "cassavadelights:block/cassava_crate_top",
+    "bottom": "farmersdelight:block/crate_bottom",
+    "side": "cassavadelights:block/cassava_crate_side"
+  }
+}

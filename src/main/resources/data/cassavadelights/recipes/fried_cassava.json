@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "cassavadelights:cut_cassava"
+  },
+  "result": "cassavadelights:fried_cassava"
+}
