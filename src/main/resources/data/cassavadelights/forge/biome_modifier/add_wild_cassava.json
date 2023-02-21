@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "savanna",
+  "features": "cassavadelights:wild_cassava_placed",
+  "step": "vegetal_decoration"
+}

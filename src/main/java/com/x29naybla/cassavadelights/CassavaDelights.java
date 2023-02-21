@@ -3,6 +3,8 @@ package com.x29naybla.cassavadelights;
 import com.mojang.logging.LogUtils;
 import com.x29naybla.cassavadelights.block.ModBlocks;
 import com.x29naybla.cassavadelights.item.ModItems;
+import com.x29naybla.cassavadelights.world.feature.ModConfiguredFeatures;
+import com.x29naybla.cassavadelights.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,6 +27,10 @@ public class CassavaDelights
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
