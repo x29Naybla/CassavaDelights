@@ -25,8 +25,8 @@ public class CassavaDelights
     public CassavaDelights() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
 
         ModConfiguredFeatures.register(modEventBus);
         ModPlacedFeatures.register(modEventBus);

@@ -1,7 +1,11 @@
 {
   "item.cassavadelights.cassava": "Mandioca",
-  "item.cassavadelights.cut_cassava": "Mandioca fatiada",
+  "item.cassavadelights.cut_cassava": "Mandioca cortada",
+  "item.cassavadelights.cassava_starch": "Goma de mandioca",
   "item.cassavadelights.fried_cassava": "Mandioca frita",
+  "item.cassavadelights.tapioca_crepe": "Tapioca",
+  "item.cassavadelights.cheese_buns": "Pães de queijo",
+
 
   "block.cassavadelights.cassava_crate": "Caixote de mandiocas",
   "block.cassavadelights.wild_cassava": "Mandioca selvagem"

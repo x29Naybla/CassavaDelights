@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "cassavadelights:cassava_starch"
+    },
+    {
+      "item": "cassavadelights:cassava_starch"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:water"
+    },
+    {
+      "tag": "forge:milk"
+    }
+  ],
+  "result": {
+    "item": "cassavadelights:cheese_buns",
+    "count": 4
+  }
+}

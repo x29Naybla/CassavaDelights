@@ -1,7 +1,6 @@
 package com.x29naybla.cassavadelights.item;
 
 import com.x29naybla.cassavadelights.CassavaDelights;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,8 +16,14 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.CASSAVA)));
     public static final RegistryObject<Item> CUT_CASSAVA = ITEMS.register("cut_cassava",
             () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.CUT_CASSAVA)));
+    public static final RegistryObject<Item> CASSAVA_STARCH = ITEMS.register("cassava_starch",
+            () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB)));
     public static final RegistryObject<Item> FRIED_CASSAVA = ITEMS.register("fried_cassava",
             () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.FRIED_CASSAVA)));
+    public static final RegistryObject<Item> TAPIOCA_CREPE = ITEMS.register("tapioca_crepe",
+            () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.TAPIOCA_CREPE)));
+    public static final RegistryObject<Item> CHEESE_BUNS = ITEMS.register("cheese_buns",
+            () -> new Item(new Item.Properties().tab(FarmersDelight.CREATIVE_TAB).food(ModFoods.CHEESE_BUNS)));
 
 
     public static void register(IEventBus eventBus){

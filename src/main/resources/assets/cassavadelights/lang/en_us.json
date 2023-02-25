@@ -1,7 +1,11 @@
 {
   "item.cassavadelights.cassava": "Cassava",
-  "item.cassavadelights.cut_cassava": "Sliced Cassava",
+  "item.cassavadelights.cut_cassava": "Cut Cassava",
+  "item.cassavadelights.cassava_starch": "Cassava Starch",
   "item.cassavadelights.fried_cassava": "Fried Cassava",
+  "item.cassavadelights.tapioca_crepe": "Tapioca Crepe",
+  "item.cassavadelights.cheese_buns": "Cheese Buns",
+
 
   "block.cassavadelights.cassava_crate": "Cassava Crate",
   "block.cassavadelights.wild_cassava": "Wild Cassava"

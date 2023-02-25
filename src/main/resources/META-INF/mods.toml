@@ -42,7 +42,7 @@ authors="29Naybla" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This mod is an addon for Farmer's Delight that aims to add a new cassava crop and new foods made with it.
+An addon for Farmer's Delight focused on adding cassava and foods made with it.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.cassavadelights]] #optional
